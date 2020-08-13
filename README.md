@@ -11,9 +11,10 @@ Viewable on here https://mangadods.netlify.app/
 
 # Features
 
--Fully responsive on all devices.
+-Fully responsive on all devices
 
 -Unqiue design
+
 
 # Screenshot
 
