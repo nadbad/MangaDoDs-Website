@@ -1,2 +1,16 @@
 # MangaDoDs-Website
-A website I created for a scanlation group.
+A website which I designed and developed for a scanlation group. (Scanlation is the fan-made scanning, translation, and editing of comics from a language into another language.)
+
+Viewable on here https://mangadods.netlify.app/
+
+#Technologies Used
+-HTML & CSS
+-JavaScript
+
+#Features
+-Fully responsive on all devices.
+-Unqiue design
+
+#Screenshot
+
+
