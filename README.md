@@ -3,14 +3,14 @@ A website which I designed and developed for a scanlation group. (Scanlation is 
 
 Viewable on here https://mangadods.netlify.app/
 
-#Technologies Used
+# Technologies Used
 -HTML & CSS
 -JavaScript
 
-#Features
+# Features
 -Fully responsive on all devices.
 -Unqiue design
 
-#Screenshot
+# Screenshot
 
 
