@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home-style.css">
+    <link rel="stylesheet" href="../css/login-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <title>MangaDoDs - Register</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <ul>
+                <li class="main-title"><a href="home.html">MangaDoDs</a></li>
+                <li class="main-nav"><a href="home.html">Home</a></li>
+                <li class="main-nav"><a href="latest.html">Latest</a></li>
+                <li class="main-nav"><a href="comics.html">Comics</a></li>
+
+            </ul>
+            <ul class="right">
+                <button type="submit" id="search-btn"><i class="fa fa-search" style="cursor: pointer;"></i></button>
+                <input type="text" placeholder="Search comics.." name="search" id="search-input">
+                <a href="https://www.patreon.com/MangaDoDs" id="patreon"><i class="fa fa-patreon"></i></a>
+                <a id="paypal" href="https://www.paypal.com/paypalme/Dodsmanga"><i class="fa fa-paypal"></i></a>
+                <a href="https://discord.com/invite/tdsthuf" id="discord"><i class="fa fa-discord"
+                        aria-hidden="true"></i></a>
+                <li class="main-nav"><a href="login.html">Login</a></li>
+                <li class="main-nav register active"><a href="register.html">Register</a></li>
+            </ul>
+            <span class="open-slide" id="menu-slide">
+                <a onclick="openSlideMenu()">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke-width="5" />
+                        <path d="M0,14 30,14" stroke-width="5" />
+                        <path d="M0,23 30,23" stroke-width="5" />
+                    </svg>
+                </a>
+            </span>
+            <div id="side-menu" class="side-nav">
+                <a onclick="closeSlideMenu()">X</a>
+                <a href="home.html">Home</a>
+                <a href="latest.html">Latest</a>
+                <a href="comics.html">Comics</a>
+                <a href="https://www.patreon.com/MangaDoDs" id="side-patreon"><i class="fa fa-patreon"></i></a>
+                <a href="https://www.paypal.com/paypalme/Dodsmanga" id="side-paypal"><i class="fa fa-paypal"></i></a>
+                <a href="https://discord.com/invite/tdsthuf" id="side-discord"><i class="fa fa-discord"
+                        aria-hidden="true"></i></a>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="login">
+        <div class="login-title">
+            <h5>Register</h5>
+        </div>
+        <div class="login-info">
+            <div class="email">
+                <input type="text" name="yourEmail" id="name" placeholder="Name">
+            </div>
+            <div class="email">
+                <input type="email" name="yourEmail" id="email" placeholder="Email">
+            </div>
+            <div class="password">
+                <input type="password" name="yourPassword" id="password" placeholder="Password">
+                <p id="warning-length">The password confirmation doesn't match.</p>
+                <p id="warning-confirm">The password confirmation doesn't match.</p>
+            </div>
+            <div class="password">
+                <input type="password" name="yourPassword" id="confirm-password" placeholder="Confirm Password">
+            </div>
+            <div class="submit">
+                <input type="submit" value="Register" id="register">
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <a class="main-footer" href="home.html">MangaDoDs</a>
+            <p id="nadeem">Powered by Nadeem.</p>
+        </div>
+    </footer>
+
+    <script src="../js/app.js"></script>
+    <script src="../js/register-app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home-style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.7/css/fork-awesome.min.css"
+        integrity="sha256-gsmEoJAws/Kd3CjuOQzLie5Q3yshhvmo7YNtBG7aaEY=" crossorigin="anonymous">
+    <title>MangaDoDs - Homepage</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <ul>
+                <li class="main-title"><a href="home.html">MangaDoDs</a></li>
+                <li class="active"><a href="home.html">Home</a></li>
+                <li class="main-nav"><a href="latest.html">Latest</a></li>
+                <li class="main-nav"><a href="comics.html">Comics</a></li>
+            </ul>
+            <ul class="right">
+                <button type="submit" id="search-btn"><i class="fa fa-search" style="cursor: pointer;"></i></button>
+                <input type="text" placeholder="Search comics.." name="search" id="search-input">
+                <a href="https://www.patreon.com/MangaDoDs" id="patreon"><i class="fa fa-patreon"></i></a>
+                <a href="https://www.paypal.com/paypalme/Dodsmanga" id="paypal"><i class="fa fa-paypal"></i></a>
+                <a href="https://discord.com/invite/tdsthuf" id="discord"><i class="fa fa-discord"
+                        aria-hidden="true"></i></a>
+                <li class="main-nav"><a href="login.html">Login</a></li>
+                <li class="main-nav register"><a href="register.html">Register</a></li>
+            </ul>
+            <span class="open-slide" id="menu-slide">
+                <a onclick="openSlideMenu()">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke-width="5" />
+                        <path d="M0,14 30,14" stroke-width="5" />
+                        <path d="M0,23 30,23" stroke-width="5" />
+                    </svg>
+                </a>
+            </span>
+            <div id="side-menu" class="side-nav">
+                <a onclick="closeSlideMenu()">X</a>
+                <a href="home.html">Home</a>
+                <a href="latest.html">Latest</a>
+                <a href="comics.html">Comics</a>
+                <a href="https://www.patreon.com/MangaDoDs" id="side-patreon"><i class="fa fa-patreon"></i></a>
+                <a href="https://www.paypal.com/paypalme/Dodsmanga" id="side-paypal"><i class="fa fa-paypal"></i></a>
+                <a href="https://discord.com/invite/tdsthuf" id="side-discord"><i class="fa fa-discord"
+                        aria-hidden="true"></i></a>
+                <a href="login.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <i class="fa fa-arrow-circle-left" aria-hidden="true" id="prevBtn"></i>
+        <i class="fa fa-arrow-circle-right" aria-hidden="true" id="nextBtn"></i>
+        <div class="carousel-slider">
+            <img src="../images/pic-3.jpeg" id="lastClone">
+            <img src="../images/pic-1.jpeg">
+            <img src="../images/pic-2.jpeg">
+            <img src="../images/pic-3.jpeg">
+            <img src="../images/pic-1.jpeg" id="firstClone">
+        </div>
+    </div>
+
+
+    <div class="info-container">
+        <div class="plugs">
+            <div class="patreon">
+                <a href="https://www.patreon.com/MangaDoDs"><img src="../images/patreon.jpg" id="patreon-plug"></a>
+            </div>
+            <div class="paypal">
+                <a href="https://www.paypal.com/paypalme/Dodsmanga"><img src="../images/paypal.png"
+                        id="paypal-plug"></a>
+            </div>
+            <div class="discord">
+                <a href="https://discord.com/invite/tdsthuf"><img src="../images/rsz_1discord.jpg"
+                        id="discord-plug"></a>
+            </div>
+        </div>
+        <div class="mangas">
+            <div class="new-releases">
+                <h4>New Releases</h4>
+                <div class="manga-row">
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                </div>
+                <div class="manga-row">
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="recommended">
+                <h4>Recommended</h4>
+                <div class="manga-row">
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                </div>
+                <div class="manga-row">
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                    <div class="manga">
+                        <a href=""><img src="../images/ulti.jpeg" alt=""></a>
+                        <a href="">Ultimate Soldier</a>
+                        <p class="released"><i class="fa fa-clock-o"></i>11 hours ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-container">
+            <div class="plugs-bottom">
+                <div class="patreon">
+                    <a href="https://www.patreon.com/MangaDoDs"><img src="../images/patreon.jpg" id="patreon-plug"></a>
+                </div>
+                <div class="paypal">
+                    <a href="https://www.paypal.com/paypalme/Dodsmanga"><img src="../images/paypal.png"
+                            id="paypal-plug"></a>
+                </div>
+                <div class="discord">
+                    <a href="https://discord.com/invite/tdsthuf"><img src="../images/rsz_1discord.jpg"
+                            id="discord-plug"></a>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <a class="main-footer" href="home.html">MangaDoDs</a>
+                <p id="nadeem">Powered by Nadeem.</p>
+            </div>
+        </footer>
+
+        <script src="../js/app.js"></script>
+</body>
+
+</html>

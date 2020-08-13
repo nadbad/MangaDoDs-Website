@@ -1,0 +1,75 @@
+.info-container {
+    margin: 0% 5% 0% 5%;
+}
+
+.mangas-latest {
+    margin-top: 50px;
+    margin-right: 0;
+}
+
+.mangas-latest h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.manga-comic {
+    display: inline-block;
+    width: 23.1%;
+    margin-right: 25px;
+    margin-bottom: 20px;
+}
+
+.manga-comic img {
+    width: 100%;
+    border-radius: 5px; 
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.manga-comic a{
+    display: inline;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.manga-row {
+    margin-bottom: 30px;
+}
+
+.released {
+    margin-top: 10px;
+    color: grey;
+    font-size: 14px;
+}
+
+.released i {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.manga-comic a:hover {
+    color: rgb(230, 0, 0);
+}
+
+.manga-comic.last {
+    margin-right: 0;
+}
+
+.footer-latest {
+    border-top: 0.001vmin solid rgb(27, 27, 27);
+    height: 65px;
+    font-size: 16px;
+}
+
+@media(max-width:768px){
+    .manga-comic{width: 45.5%;}
+}
+
+@media(max-width:400px){
+    .manga-comic {width: 98%;}
+    .footer-latest {margin-top: 0;}
+}

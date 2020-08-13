@@ -1,0 +1,163 @@
+.login {
+    margin-top: 80px;
+}
+
+.login-title {
+    margin: auto;
+    width: 50%;
+}
+
+.login-title h5 {
+    background-color: rgb(30, 30, 30);
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px rgb(33, 33, 33) solid;
+}
+
+.login-info {
+    background-color: rgb(30, 30, 30);
+    margin: auto;
+    width: 50%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.email {
+    background-color: rgb(30, 30, 30);
+    width: 50%;
+    margin: auto 20% auto auto;
+    padding-top: 20px;
+}
+
+.email input {
+    background-color: rgb(30, 30, 30);
+    outline: none;
+    border: 1px rgb(48, 48, 48) solid;
+    color: white;
+    border-radius: 3px;
+    padding: 2% 30% 2% 4%;
+}
+
+.name {
+    background-color: rgb(30, 30, 30);
+    width: 50%;
+    margin: auto 20% auto auto;
+    padding-top: 20px;
+}
+
+.name input {
+    background-color: rgb(30, 30, 30);
+    outline: none;
+    border: 1px rgb(48, 48, 48) solid;
+    color: white;
+    border-radius: 3px;
+    padding: 2% 30% 2% 4%;
+}
+
+.password {
+    background-color: rgb(30, 30, 30);
+    width: 50%;
+    margin: auto 20% auto auto;
+    padding-top: 20px;
+}
+
+.password input {
+    background-color: rgb(30, 30, 30);
+    outline: none;
+    border: 1px rgb(48, 48, 48) solid;
+    color: white;
+    border-radius: 3px;
+    padding: 2% 30% 2% 4%;
+}
+
+.confirm-password {
+    background-color: rgb(30, 30, 30);
+    width: 50%;
+    margin: auto 20% auto auto;
+    padding-top: 20px;
+}
+
+.confirm-password input {
+    background-color: rgb(30, 30, 30);
+    outline: none;
+    border: 1px rgb(48, 48, 48) solid;
+    color: white;
+    border-radius: 3px;
+    padding: 2% 30% 2% 4%;
+}
+
+.submit {
+    background-color: rgb(30, 30, 30);
+    width: 50%;
+    margin: auto 20% auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.submit a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: rgb(30, 30, 30);
+    color: rgb(230, 0, 0);
+}
+
+.submit a:hover {
+    color: rgb(200, 0, 0);
+}
+
+.submit input {
+    cursor: pointer;
+    background-color: rgb(230, 0, 0);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 2.5% 4% 2.5% 4%;
+    margin-right: 15px;
+}
+
+.submit input:hover {
+    background-color: rgb(200, 0, 0);
+}
+
+#warning-confirm {
+    color: rgb(230, 0, 0);
+    background-color: rgb(30, 30, 30);
+    font-size: 12px;
+    font-weight: 400;
+    display: none;
+}
+
+#warning-length {
+    color: rgb(230, 0, 0);
+    background-color: rgb(30, 30, 30);
+    font-size: 12px;
+    font-weight: 400;
+    display: none;
+}
+
+@media(max-width:768px){
+    .email {margin: auto 30% auto auto;}
+    .password {margin: auto 30% auto auto;}
+    .confirm-password {margin: auto 20% auto auto;}
+    .submit {margin: auto 10% auto auto; width: 70%;}
+    .name {margin: auto 20% auto auto;}
+}
+
+@media(max-width:400px){
+    .email {margin: auto 47.5%  auto auto;}
+    .password {margin: auto 47.5% auto auto;}
+    .confirm-password {margin: auto 47.5%  auto auto;}
+    .submit {margin: auto 25% auto auto; width: 70%;}
+    .name {margin: auto 47.5%  auto auto;}
+}
+
