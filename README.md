@@ -17,4 +17,4 @@ Viewable on here https://mangadods.netlify.app/
 
 # Screenshot
 
-![alt text](https://github.com/nadbad/MangaDoDs-Website/Project 4.PNG?raw=true)
+![alt text](https://github.com/nadbad/MangaDoDs-Website/blob/master/Project%204.PNG)
