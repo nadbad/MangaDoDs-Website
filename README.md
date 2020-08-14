@@ -3,6 +3,8 @@ A website which I designed and developed for a scanlation group. (Scanlation is 
 
 Viewable on here https://mangadods.netlify.app/
 
+The site is still in demo mode, so no actual information of the comics has been added.
+
 # Technologies Used
 
 -HTML & CSS
