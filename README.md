@@ -13,7 +13,7 @@ Viewable on here https://mangadods.netlify.app/
 
 -Fully responsive on all devices
 
--Unqiue design
+-Unique design
 
 
 # Screenshot
