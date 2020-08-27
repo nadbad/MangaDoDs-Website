@@ -145,6 +145,30 @@
     display: none;
 }
 
+#warning-email {
+    color: rgb(230, 0, 0);
+    background-color: rgb(30, 30, 30);
+    font-size: 12px;
+    font-weight: 400;
+    display: none;
+}
+
+#warning-name-short {
+    color: rgb(230, 0, 0);
+    background-color: rgb(30, 30, 30);
+    font-size: 12px;
+    font-weight: 400;
+    display: none;
+}
+
+#warning-name-long {
+    color: rgb(230, 0, 0);
+    background-color: rgb(30, 30, 30);
+    font-size: 12px;
+    font-weight: 400;
+    display: none;
+}
+
 @media(max-width:768px){
     .email {margin: auto 30% auto auto;}
     .password {margin: auto 30% auto auto;}

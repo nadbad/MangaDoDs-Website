@@ -64,15 +64,18 @@
             <h5>Register</h5>
         </div>
         <div class="login-info">
-            <div class="email">
-                <input type="text" name="yourEmail" id="name" placeholder="Name">
+            <div class="name">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <p id="warning-name-short">The username is too short.</p>
+                <p id="warning-name-long">The username is too long.</p>
             </div>
             <div class="email">
-                <input type="email" name="yourEmail" id="email" placeholder="Email">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <p id="warning-email">Please enter a valid email.</p>
             </div>
             <div class="password">
                 <input type="password" name="yourPassword" id="password" placeholder="Password">
-                <p id="warning-length">The password confirmation doesn't match.</p>
+                <p id="warning-length">The password is too short.</p>
                 <p id="warning-confirm">The password confirmation doesn't match.</p>
             </div>
             <div class="password">
@@ -96,7 +99,6 @@
         </div>
     </footer>
 
-    <script src="../js/app.js"></script>
     <script src="../js/register-app.js"></script>
 </body>
 
