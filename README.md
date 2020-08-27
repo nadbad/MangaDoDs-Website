@@ -17,6 +17,7 @@ The site is still in demo mode, so no actual information on the comics has been 
 
 -Unique design
 
+-Form Validation
 
 # Screenshot
 
