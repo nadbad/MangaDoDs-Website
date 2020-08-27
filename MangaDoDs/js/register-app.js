@@ -46,7 +46,7 @@ registerBtn.addEventListener('click', () => {
             this.clearAlert();
         }, 3000);
     } else {
-        window.location.replace("http://127.0.0.1:5500/html/loggedin.html");
+        window.location.replace("../html/loggedin.html");
     }
 });
 
